@@ -1,13 +1,15 @@
 import React from 'react';
-import header from './Components/header';
-import footer from './Components/footer';
+import Header from './Components/header';
+import Footer from './Components/footer';
+import WorkingArea from './Components/WorkingArea/workingArea';
 
 class App extends React.Component {
   render () {
     return (
       <div>
-        <header />
-        <footer />
+        <Header />
+        <WorkingArea />
+        <Footer />
       </div>
     );
   }
