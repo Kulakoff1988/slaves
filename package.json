@@ -23,6 +23,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "create-react-class": "^15.6.3"
   }
 }
